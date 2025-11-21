@@ -93,3 +93,18 @@ circular dependencies and resolve "Ambiguous Path" errors.
 ![Image](https://github.com/user-attachments/assets/b56e64fd-d49d-42d9-83cf-87f0b1c510bb)
 
  ***
+
+## 🧑‍💻 Authors
+
+**Abdelrahman Mohamed – Power BI Analyst** 📊
+*(Project Owner & Dashboard Design)*
+* **Data Modeling:** Optimized the engineering output into a high-performance **Star Schema**, resolving circular dependencies and data ambiguity.
+* **Advanced DAX:** Implemented complex measures using iterator functions (`SUMX`) and Time Intelligence for accurate historical analysis.
+* **Technical Solutions:** Engineered a **Bi-Directional Filter Bridge** to ensure accurate filtering between granular transaction data and aggregated Gold layers.
+* **UI/UX Design:** Designed a custom, user-centric layout using external tools (PowerPoint) for a polished, professional aesthetic.
+
+**Sabry Tarek – Data Engineer** 🔧
+*(Data Pipeline & Architecture)*
+* **Architecture:** Designed and implemented the **Medallion Architecture** (Bronze, Silver, Gold) using Azure Databricks.
+* **Data Engineering:** Built PySpark pipelines for data cleaning, schema enforcement, and transformation.
+* **Cloud Infrastructure:** Managed Azure Data Lake Gen2 storage and Unity Catalog integration for seamless BI consumption.
