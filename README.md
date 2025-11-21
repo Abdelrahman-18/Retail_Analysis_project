@@ -53,3 +53,4 @@ Architecture Diagram
 
 <img width="1695" height="469" alt="Image" src="https://github.com/user-attachments/assets/01a3d87a-510e-4e3d-bca9-a0bb72bc7cb5" />
 
+![Image](https://github.com/user-attachments/assets/acbec8e0-1d02-44f5-bb1c-55dd823bc1bc)
