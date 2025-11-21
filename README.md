@@ -54,3 +54,29 @@ Architecture Diagram
 <img width="1695" height="469" alt="Image" src="https://github.com/user-attachments/assets/01a3d87a-510e-4e3d-bca9-a0bb72bc7cb5" />
 
 ![Image](https://github.com/user-attachments/assets/acbec8e0-1d02-44f5-bb1c-55dd823bc1bc)
+
+***
+
+## 📊 Power BI Dashboard
+
+The dashboard includes:
+
+- ✔ Key KPIs
+High-level metrics such as Total Revenue, Total Orders, Total Customers, and Average Order Value to quickly assess business performance.
+
+- ✔ Total Revenue by Product Category
+A category breakdown showing which product groups generate the most revenue.
+
+- ✔ Top Products Sold
+A dynamic list highlighting the highest-selling products based on total revenue.
+
+- ✔ Revenue Map by Country
+A geographic visual showing total revenue distribution across all countries.
+
+- ✔ Total Revenue by Country
+A clear comparison of revenue performance across countries to identify top-performing countries.
+
+
+![Image](https://github.com/user-attachments/assets/240294a8-97df-4fe6-8277-2e283a47070e)
+
+ ***
