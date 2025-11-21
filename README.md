@@ -27,3 +27,17 @@ This project follows the Medallion Architecture:
 Architecture Diagram
 <img width="2784" height="1536" alt="Image" src="https://github.com/user-attachments/assets/5f5498c5-7b64-41e7-8b05-65408c4f81e8" />
 ***
+
+### 🛠️ Technologies Used
+
+| Component  | Technology                     |
+|-----------|---------------------------------|
+| Storage   | Azure Data Lake Gen2            |
+| Compute   | Azure Databricks                |
+| Processing| PySpark (Medallion Architecture)|
+| Analytics | Power BI                        |
+| Monitoring| Log Analytics Workspace         |
+| Catalog   | Unity Catalog                   |
+| Format    | Parquet                         |
+
+
