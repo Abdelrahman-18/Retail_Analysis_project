@@ -22,3 +22,8 @@ This project follows the Medallion Architecture:
  - Store and product performance
  - Customer behavior metrics
  - Data exported to Unity Catalog for BI tools
+
+***
+Architecture Diagram
+<img width="2784" height="1536" alt="Image" src="https://github.com/user-attachments/assets/5f5498c5-7b64-41e7-8b05-65408c4f81e8" />
+***
