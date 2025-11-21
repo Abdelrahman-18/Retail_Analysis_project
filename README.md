@@ -59,24 +59,37 @@ Architecture Diagram
 
 ## 📊 Power BI Dashboard
 
-The dashboard includes:
+The dashboard serves as the final consumption layer, transforming the curated Gold data into actionable business intelligence. Designed with a focus on user experience (UX), it provides a clear narrative from high-level KPIs to granular product performance.
 
-- ✔ Key KPIs
-High-level metrics such as Total Revenue, Total Orders, Total Customers, and Average Order Value to quickly assess business performance.
+### 🔹 Key Features
+- 📈 Core Performance KPIs: High-level metrics calculated using robust DAX measures, including Total Orders (via DISTINCTCOUNT), Total Revenue (row-level accuracy via SUMX), and Average Order Value (AOV).
 
-- ✔ Total Revenue by Product Category
-A category breakdown showing which product groups generate the most revenue.
+- 🏆 Product Deep Dive: A dynamic ranking system highlighting Top Products Sold and a Category Breakdown, allowing stakeholders to instantly identify revenue drivers.
 
-- ✔ Top Products Sold
-A dynamic list highlighting the highest-selling products based on total revenue.
+- 🌍 Geographical Analysis: A Revenue Map showing sales distribution across regions, utilizing the optimized data model to ensure accurate filtering by location.
 
-- ✔ Revenue Map by Country
-A geographic visual showing total revenue distribution across all countries.
+- 📉 Market Efficiency Scatter: A strategic visualization comparing Transaction Count vs. Total Sales, helping identify markets driven by high volume versus high ticket value.
 
-- ✔ Total Revenue by Country
-A clear comparison of revenue performance across countries to identify top-performing countries.
+### ⚙️ Data Modeling & Optimization
+The primary goal of the Power BI optimization phase was to convert the complex, engineering-focused Medallion Architecture structure into a high-performance Star Schema suitable for analytics.
+
+#### 🔧 Model Structure & Integrity Fixes
+- Star Schema Enforcement: The model was optimized by isolating Fact Tables (Transactions) from Dimension Tables (Products, Customers, Stores) to simplify relationships and enhance query speed.
+
+- Ambiguity Resolution: Systematically deactivated redundant relationships (particularly between the Silver and Gold layers) to eliminate 
+circular dependencies and resolve "Ambiguous Path" errors.
+
+- Filter Bridging: The core filter blockage was resolved by utilizing the Product dimension as a bridge. A Bi-Directional Filter was implemented on the Product $\leftrightarrow$ Transaction relationship to successfully propagate date and store filters to the highly aggregated Gold tables.
+
+#### Analytical Logic & DAX Optimization
+
+- Robust Calculations: Created centralized, dynamic DAX measures. Revenue was calculated using the SUMX iterator function for row-level accuracy (quantity * price), ensuring correct aggregation across all filters.
+
+- Time Intelligence: Built a dedicated Calendar Table to act as the sole source of time context, enabling stable time-series analysis for metrics like Total Revenue and Average Order Value.
 
 
 ![Image](https://github.com/user-attachments/assets/240294a8-97df-4fe6-8277-2e283a47070e)
+
+![Image](https://github.com/user-attachments/assets/b56e64fd-d49d-42d9-83cf-87f0b1c510bb)
 
  ***
