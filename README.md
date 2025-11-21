@@ -97,11 +97,10 @@ circular dependencies and resolve "Ambiguous Path" errors.
 ## 🧑‍💻 Authors
 
 **Abdelrahman Mohamed – Power BI Analyst** 📊
-*(Project Owner & Dashboard Design)*
-* **Data Modeling:** Optimized the engineering output into a high-performance **Star Schema**, resolving circular dependencies and data ambiguity.
-* **Advanced DAX:** Implemented complex measures using iterator functions (`SUMX`) and Time Intelligence for accurate historical analysis.
-* **Technical Solutions:** Engineered a **Bi-Directional Filter Bridge** to ensure accurate filtering between granular transaction data and aggregated Gold layers.
-* **UI/UX Design:** Designed a custom, user-centric layout using external tools (PowerPoint) for a polished, professional aesthetic.
+* **Data Modeling & Optimization:** Transformed the raw engineering output into a high-performance **Star Schema**, resolving complex circular dependencies and data ambiguity.
+* **Advanced DAX Implementation:** Developed dynamic measures using iterator functions (`SUMX`) and Time Intelligence to ensure row-level accuracy across all aggregations.
+* **Technical Problem Solving:** Engineered a **Bi-Directional Filter Bridge** to allow granular transaction filters to propagate correctly to pre-aggregated Gold tables.
+* **Dashboard Design (UI/UX):** Designed a clean, user-centric interface with custom backgrounds and intuitive navigation for actionable insights.
 
 **Sabry Tarek – Data Engineer** 🔧
 *(Data Pipeline & Architecture)*
