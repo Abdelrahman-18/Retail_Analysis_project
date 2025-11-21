@@ -40,4 +40,16 @@ Architecture Diagram
 | Catalog   | Unity Catalog                   |
 | Format    | Parquet                         |
 
+*** 
+
+## 🚀 Databricks Workspace & Cluster
+- Create Databricks cluster
+- Attach notebook
+- Connect to ADLS using service principal or SAS
+- Process data into Bronze → Silver → Gold
+- Save final curated tables to Unity Catalog
+
+<img width="1898" height="679" alt="Image" src="https://github.com/user-attachments/assets/4b9b32b4-ccf8-4997-88ae-04a464ed972c" />
+
+<img width="1695" height="469" alt="Image" src="https://github.com/user-attachments/assets/01a3d87a-510e-4e3d-bca9-a0bb72bc7cb5" />
 
