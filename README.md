@@ -19,6 +19,6 @@ This project follows the Medallion Architecture:
 ✨ Gold Layer (Analytics Layer)
  - Aggregated KPIs
  - Country-level sales
- Store and product performance
- Customer behavior metrics
- Data exported to Unity Catalog for BI tools
+ - Store and product performance
+ - Customer behavior metrics
+ - Data exported to Unity Catalog for BI tools
